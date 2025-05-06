@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Centrul Vieții Platform
 
 This is a Laravel web application developed for "Centrul Vieții", likely a student dormitory or similar organization based in Timișoara. The platform manages public information, contact requests, applications for residency, and user accounts with different roles (Admin, Moderator, User).
@@ -134,3 +135,6 @@ Please follow standard contributing guidelines (Fork, Branch, Pull Request).
 
 (Specify your license here, e.g., MIT License)
 
+=======
+# ProiectLicenta
+>>>>>>> 2696f3584e51f95155536976e0ae96b2a5335f0e
