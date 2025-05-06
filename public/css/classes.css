@@ -1,0 +1,95 @@
+
+/* round buttons for the navigation */
+/* white */
+/* dark_radius_rev_type_button - white button with less radius radius  */
+/* dark_type_rev_button - white button with more radius radius  */
+
+/* black */
+/* dark_type_button - black button with less radius radius  */
+/* dark_radius_type_button - black button with more radius radius  */
+
+.dark_radius_type_button, .dark_radius_rev_type_button, .dark_type_button, .dark_type_rev_button{
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 40px;
+    color: var(--white)!important;
+    padding: 8px 12px;
+    background-color:var(--grade_one_white_black);
+    transition: all 0.5s ease;
+    border: none;
+    cursor: pointer;
+}
+.dark_type_button, .dark_radius_rev_type_button{
+    border-radius:5px !important;
+}
+/* dark  radius type button rev */
+.dark_type_rev_button, .dark_radius_rev_type_button{
+    color: var(--balck)!important;
+    background-color: var(--white);
+    transition: all 0.5s ease;
+}
+
+.dark_type_rev_button:hover, .dark_radius_rev_type_button:hover{
+    color: var(--white)!important;
+    background-color: var(--grade_one_white_black)!important;
+}
+
+
+
+
+
+
+.dark_radius_type_button:hover, .dark_type_button:hover {
+    background-color: var(--white);
+    color: var(--black)!important;
+}
+
+.round_button , .round_button_rev{
+    border: none;
+    border-radius: 50%;
+    color: var(--balck);
+    background-color: var(--white);
+    width: 32px;
+    height: 32px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.round_button_rev{
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.round_button:hover{
+    background-color: var(--grade_one_white_black);
+    color: var(--white);
+}
+.round_button_rev:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+
+
+
+/* errors */
+
+.error_item{
+    padding: 10px;
+    background-color: var(--error_red);
+    color: var(--white);
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}

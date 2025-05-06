@@ -1,0 +1,70 @@
+@import url(./style.css);
+
+
+
+/* main */
+
+.main{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.ourMissionDiv{
+    width: 100vw;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ourMissionJumbotron{
+    width: 75%;
+    padding: 25px;
+    background-color: var(--white);
+    border-radius: 10px;
+
+}
+
+
+
+/* forth section */
+
+.forth_section{
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.placesInDorm{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.h2Regular{
+    font-weight:normal;
+}
+
+.Thirdnumbers{
+    font-size: 36px;
+}
+
+#leftPlaces{
+    color: var(--primary_blue);
+}
+
+#placesUpdateDate{
+    color: var(--dark_gray);
+}
+

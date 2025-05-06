@@ -1,0 +1,31 @@
+.contact_form_div{
+    width: 70vw;
+    padding: 10px;
+    margin: auto;
+    /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+}
+
+.contact_form{
+    display: grid;
+    gap: 5px;
+    padding: 10px;
+}
+.contact_form .form-group{
+    display: flex;
+}
+
+.contact_form textarea{
+    resize: none;
+}
+
+.contact_form .submit_button{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

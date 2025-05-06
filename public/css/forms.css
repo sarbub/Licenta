@@ -1,0 +1,111 @@
+@import url(../css/style.css);
+
+
+.main_request_div{
+    display: flex;
+    width: 70vw;
+    height:70vh;
+    justify-content: center;
+    align-items: center;
+}
+#request_place_form{
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 10px;
+  min-width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+h1{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+h3{
+  position: relative;
+  margin-bottom: 10px; 
+  font-weight: normal;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+ flex-direction: column;
+  gap: 10px;
+}
+
+#intro_tab p{
+    line-height: 20px;
+    font-size: 18px !important;
+    text-align: start;
+}
+
+.first_tab_design{
+    background-color: var(--red) !important;
+    color: var(--white);
+}
+
+.first_tab_design button{
+    color: var(--red);
+    background-color: var(--white);
+}
+
+button {
+  background-color: var(--red);
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}

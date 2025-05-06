@@ -1,0 +1,200 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.navigation_section{
+    background-image:url(../../images/TimClock.jpg) ;
+}
+
+/* first_section */
+
+.first_section{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 40px;
+}
+
+.first_section p{
+    width:600px;
+}
+
+.first_section h1{
+    position: relative;
+    top: -60px;
+    padding: 0 10px;
+    border-left: 4px solid var(--black);
+}
+.first_section a{
+    color: var(--concrete);
+}
+
+
+/* fifth_section */
+
+.second_section{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    padding: 300px 0;
+    margin-bottom: 40px;
+    height: auto;
+    background-color: var(--gray);
+    justify-content: center;
+    align-items: center;
+}
+
+.second_section svg{
+    background-color: var(--gray) !important;
+}
+
+
+.secondInsideDiv{
+    display: flex;
+    width: 80%;
+    height: 300px;
+    z-index: 2;
+    padding: 10px;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.secondInsideDiv p{
+    width: 600px;
+}
+
+.secondInsideDiv h1{
+    position: relative;
+    top: -40px;
+    border-left: 4px solid var(--black);
+    padding:0 10px;
+}
+
+.secondInsideDivType2{
+    width: 80%;
+    display: grid;
+    height: auto;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.secondInsideDivType2 h1{
+    border-left: 4px solid var(--black);
+    padding: 0 10px;
+}
+
+.canteenCVImages{
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    margin-bottom: 60px;
+    height: 500px;
+    gap: 10px;
+
+}
+
+.canteenCVImages img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#canteenImgBigOne{
+    width: 60%;
+}
+
+.canteenCVImages span{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+}
+
+/* roomsCVImages */
+
+.roomsCVImages{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* overflow: hidden; */
+    gap: 10px;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+.roomsCVImages span{
+    width: 100%;
+    height: auto;
+    text-align: cener;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 300px;
+    display: flex;
+}
+
+.roomsCVImages img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#roomImg1{
+    width: 60%;
+}
+
+/* worshipTimeImages */
+
+.worshipTimeImages {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.worshipTimeImages span {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.worshipTimeImages span img {
+    flex: 1 1 0;
+    object-fit: cover;
+    height: 100%;
+}
+
+#WorshipSpan1 {
+    height: 300px;
+}
+
+#WorshipSpan2 {
+    height: 150px;
+}
+
+
+
+
+
+
+
+

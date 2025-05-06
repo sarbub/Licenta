@@ -1,0 +1,2 @@
+so, the websocket to work, important:
+php artisan queue:work -vvv

@@ -1,0 +1,81 @@
+@import url("../css//style.css");
+
+#galleryDiv{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    position: relative;
+    display: none;/*flex*/
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main div{
+    border: 2px solid blue;
+}
+
+#galleryUpladImageIcon{
+    position: relative;
+    font-size: 150px;
+    color: var(--dark_gray);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#galleryDiv h1{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark_blue);
+    padding-bottom: 30px;
+}
+
+.mainGallery{
+    position: relative;
+    width: 60%;
+    margin-bottom: 20px;
+    height: 220px;
+    border-radius: 8px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.mainGallery img{
+    height: 100%;
+    width: 220px;
+    object-fit: cover;
+    border-radius:4px ;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.mainGallery::-webkit-scrollbar {
+    display: none; /* Hide the default scrollbar */
+  }
+
+  #linkGallryCV{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: var(--white);
+    background-color:var(--red);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 130px;
+    cursor: pointer;
+  }
+

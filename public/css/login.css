@@ -1,0 +1,93 @@
+@import url(../css/style.css);
+
+.main_section{
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: top left;
+}
+
+.main_section svg{
+    height:150px ;
+    width: 100%;
+    object-fit: cover !important;
+}
+
+#logoTextImage{
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.login_section{
+    position: absolute;
+    top: 230px;
+    right: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+.login_section form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_section form input{
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    padding: 20px 0;
+    width: 200px;
+    color: black;
+    outline: none;
+}
+
+.login_section form input::placeholder{
+    color: black;
+    font-weight: regular;
+}
+
+.login_section form button{
+    margin-top: 20px;
+}
+
+#dont_haveAccount_p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.text_section{
+    position:absolute;
+    bottom: 250px;
+    left: 50px;
+}
+.text_section p{
+    width: 450px;
+    margin-top: 30px;
+}
+
+.error-message{
+    position: relative;
+    top: 30px;
+    color: red;
+    font-size: 14px;
+}
+
+#loginForm div{
+    display: flex;
+}
+
+#loginForm{
+    width: 450px;
+}
+
+
+
+
