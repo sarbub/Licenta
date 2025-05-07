@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # Centrul Vieții Platform
 
-This is a Laravel web application developed for "Centrul Vieții", likely a student dormitory or similar organization based in Timișoara. The platform manages public information, contact requests, applications for residency, and user accounts with different roles (Admin, Moderator, User).
+This is a Laravel web application developed for "Centrul Vieții", a student dormitory based in Timișoara. The platform manages public information, contact requests, applications for residency, and user accounts with different roles (Admin, Moderator,Worker, User).
 
 ## Key Features (Implemented So Far)
 
@@ -23,7 +22,7 @@ This is a Laravel web application developed for "Centrul Vieții", likely a stud
         *   Browser Session Management.
         *   Account Deletion.
 *   **User Roles:**
-    *   `admin`, `moderator`, and standard user roles implemented via an `account_type` field on the `User` model.
+    *   `admin`, `moderator`, `worker` and standard user roles implemented via an `account_type` field on the `User` model.
 *   **Request Submission Process:**
     *   Email verification step before submitting a request (`/autentificate` form -> `/insert_email_validation_code`).
     *   Resend verification code functionality.
@@ -120,12 +119,7 @@ This is a Laravel web application developed for "Centrul Vieții", likely a stud
 
 ## Known Issues / TODOs
 
-*   **Registration Logic:** The standard Jetstream registration allows anyone to register. This needs to be reconciled with the requirement that only users with *accepted* requests can create accounts. How is request acceptance tracked and linked to registration eligibility?
-*   **`pending_requests` Table:**
-    *   Missing `user_id` column to link requests submitted by logged-in users to their `users` table record.
-    *   Missing `status` column (e.g., 'pending', 'approved', 'rejected') to track the state of a request, which is needed for moderator/admin views and potentially for registration logic.
-*   **Styling Consistency:** The application uses two different CSS frameworks (Bootstrap for public, Tailwind for authenticated). Consider unifying the styling for a more consistent user experience, or ensure the transition between the two is seamless.
-*   **Error Handling:** Review user-facing error messages and validation feedback for clarity and consistency across different forms.
+* **Implement real-time like updates, followers real-time updates
 
 ## Contributing
 
@@ -133,8 +127,8 @@ Please follow standard contributing guidelines (Fork, Branch, Pull Request).
 
 ## License
 
-(Specify your license here, e.g., MIT License)
+Copyright (c) [Year] [Your Name/Centrul Vieții Platform Team]. All Rights Reserved.
 
-=======
-# ProiectLicenta
->>>>>>> 2696f3584e51f95155536976e0ae96b2a5335f0e
+This project is provided under a custom license. You are permitted to copy, test, and study this software for personal educational purposes only. You are not allowed to publish, redistribute, or use this software for commercial purposes.
+
+Please see the `LICENSE.md` file for the full terms and conditions.
