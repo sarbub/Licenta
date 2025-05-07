@@ -120,6 +120,7 @@ This is a Laravel web application developed for "Centrul Vieții", a student dor
 ## Known Issues / TODOs
 
 * **Implement real-time like updates, followers real-time updates
+* **Fix the like button real-time updates(button its clicked,websocket works but heart logo disappere)
 
 ## Contributing
 
